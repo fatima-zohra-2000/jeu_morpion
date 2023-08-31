@@ -1,6 +1,7 @@
 # jeu_morpion
 Envis de jouer un petit jeu ?
-
+Les langages utilisés sont :
+HTML- CSS- JavaScript - PHP - Mysql
 Voici un apperçu du site :
 
 Page de connexion :
