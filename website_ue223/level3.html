@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Morpion</title>
+	<link rel="stylesheet" href="assets/css/style_play.css" />
+</head>
+<body>
+	<div class="container-jeu">
+		<div class="play-content">
+			<div id="field">
+				<!--on va utiliser API.-->
+				<canvas id="canvas" width="450" height="450">
+					<p>
+					Désolé, votre navigateur ne supporte pas Canvas. Mettez-vous à jour. Ou utilisez Firefox ou Google Chrome.
+					</p>
+				</canvas>
+				<div id="scores">
+					<h1>Morpion</h1>
+					<!--Nom du level et le lien-->
+					<h2>Level 3</h2>
+					<!--Nbr de manches-->
+					<p id="nbMatches">0 manche</p>
+					<!--Nbr de scores-->
+					<p class="scores-title">Scores</p>
+					<!--Nbr de jouer-->
+					<p id="jouer1" class="jouer1"><strong>X</strong> Joueur 1 : <span id="score1">0</span></p>
+					<p id="jouer2" class="jouer2"><strong>O</strong> Joueur 2 : <span id="score2">0</span></p>
+					<p id="scoreMessages" class="messages"></p>
+					<br/>
+					<!-- <a href="deconnexion.php" class="deconnexion">Deconnexion</a> -->
+					<a href="main.html" class="accueil">Accueil</a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/js/jquery.js"> </script>
+	<script type="text/javascript" src="assets/js/level3.js"> </script>
+
+</body>
+
+</html>
