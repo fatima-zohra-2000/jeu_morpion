@@ -1,6 +1,8 @@
 # jeu_morpion
 Envis de jouer un petit jeu ?
+
 Voici un apperçu du site :
+
 Page de connexion :
 ![image](https://github.com/fatima-zohra-2000/jeu_morpion/assets/79930498/51fc5b3a-7d16-42c0-98d4-64aa74fdbf5b)
 
